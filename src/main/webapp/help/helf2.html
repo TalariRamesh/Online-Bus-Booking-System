@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+    body {
+        background-color: lightblue;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .dropdown-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .dropdown {
+        margin: 10px;
+    }
+
+    .dropbtn {
+        background-color: gray;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        width:200px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: lightgrey;
+        min-width: 200px;
+        z-index: 1;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: grey;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 600px;
+    }
+</style>
+</head>
+<body>
+<h1>HELP</h1><br>
+
+<div class="dropdown-container">
+    <div class="dropdown">
+        <button class="dropbtn">About Booking Query</button>
+        <div class="dropdown-content">
+            <a href="help1.html">Want to cancel the tickets</a>
+            <a href="help2.html">Terms of Ticket Booking</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">About profile</button>
+        <div class="dropdown-content">
+            <a href="help3.html">Unable to logout</a>
+            <a href="help4.html">Wants to see History of your booking</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Offer Problem</button>
+        <div class="dropdown-content">
+            <a href="help5.html">Problem in selecting Offer</a>
+            <a href="help6.html">My Offers</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Any Other Help</button>
+        <div class="dropdown-content">
+            <a href="help7.html">Query</a>
+            <a href="help8.html">Customer Care</a>
+        </div>
+    </div>
+</div>
+
+<br>
+<img src="./../image/buscoming.jpeg">
+</body>
+</html>
